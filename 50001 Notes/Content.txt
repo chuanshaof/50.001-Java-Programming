@@ -1,0 +1,79 @@
+1.1. Basic Java
+	Basic functions such as defining for-loops, methods, returns
+
+1.2. Java LinkedList
+	Static typing 
+	ArrayList vs LinkedList + their performances
+
+2.1. ObjectClass
+	Constructors and data fields
+	Instance vs static variables/methods
+	Private/default/public modifiers
+	Passing objects to methods
+
+3.1. Inheritance
+	Superclasses & subclasses (extends) + its advantages
+	super() on constructors
+	@override - Optional, for machine to check that it is correct only
+	java.lang.Object
+	Polymorphism + dynamic binding
+	Downcasting objects
+	instanceof
+	Protected modifier + table
+
+3.2. Abstract class and interface (part 1)
+	Abstract class + examples
+
+4.1. Abstract class and interface (part 2)
+	Interfaces + examples
+	* ALL data fields in interfaces are public static final
+	* ALL methods are public abstract
+	Comparable Interface
+	Comparator Interface (additional alternative)
+	Abstract class vs Interface
+
+4.2. Exception
+	Exception handling (try catch)
+	public static void class throw new Exception()
+
+4.3. Recursion
+	Just recursion lol
+
+5.1. OO Design Pattern
+	Singleton DP + how to make + advantages
+	Observer DP + how to make + advantages
+
+5.2. VisitorDesignPattern
+	Visitor vs non-visitor
+	Visitor DP + how to make + advantages
+
+6.1. SAT
+	How to convert from BC to CNF
+	DPLL algorithm
+	(X + Y) == (-X -> Y) == (X -> -Y)
+
+7.1. Android Lesson - Java Revision
+	List .add()
+	Constructor
+	Polymorphism (Subtype)
+	Overloading methods (Adhoc polymorphism)
+	Page 38 for Polymorphism summary
+	Interfaces
+	Exception handling + try catch block
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
