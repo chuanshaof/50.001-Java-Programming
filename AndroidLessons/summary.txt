@@ -1,0 +1,142 @@
+LESSON 1:
+	45: 	XML introduction
+			- layout_gravity for center of layout
+			- gravity for center of widget
+
+	51:	Inner & Nested class
+			- See 52 for details
+
+	53:	Nested Interface & Anonymous Class
+			- Nested Interface
+				- Static inner class = declared on class level to use multiple times
+				- Anonymous class = only used once & defined when function is called
+
+	57:	How to use basic android from AppCompatActivity
+			- 63: 3 methods for onClickListener
+
+
+
+LESSON 2:
+	79:	How to use BigDecimal class
+
+	81: 	res/values folders + Android manifest	
+	
+	84:	Exceptions and throwing
+
+	85: 	Static Factory Method (Tea & teh example)
+			- A static method that returns instance of the class
+
+	86: 	Toasts
+
+	87: 	Logcat
+
+	88:	Explicit Intents
+			- How to put extras and get extras
+
+	90: 	Activity Lifecycle
+
+	92: 	SharedPreferences & onPause
+
+	93: 	Options menu
+
+	94: 	Builder Design Pattern
+			- Basically set, set, then build, will return the parent class with objects set
+			- Not sure why this is even used
+
+	96: 	URI (Universal Resource Indicators)
+	
+	97: 	Implicit Intents
+			- How to use maps etc
+			- Don't forget to change the manifest
+
+	99: 	Unit Testing
+			- Use @Test and assertEquals
+	
+
+
+
+LESSON 3:
+	115: Abstract Classes
+	
+	117: Template Method Design Pattern
+			- One abstract class to enforce methods to be implemented in other classes
+			- e.g. Drink = abstract class, all other drinks have to follow it
+
+	119:	Generic Classes & Interfaces
+			- ArrayList is a generic CLASS
+			- Comparable<T> is a generic INTERFACE
+			
+	121: 	Executor + Handlers
+			- Can only access final/immutables
+	
+	123:	Generic Class
+			- Container<T>, CHECK CODE
+			- Container MUST be final to be used in executor
+
+	
+	124: Looper & Handler
+			- Get a handler based on the looper
+
+
+	
+
+LESSON 4:
+	137:	Recap on 2 & 3
+
+	142:	startActivityForResult(intent, REQUEST_CODE)
+
+		setResult(Activity.RESULT_OK, returnIntent) --> May be CANCELED if user backed out
+		finish()
+
+		onActivityResult
+
+	147:	Strategy Design Pattern
+			- Setting interfaces that have been implemented as the inputs
+			- public void setInterface(Interface interface) { this.interface = interface; }
+
+		Overview:
+			- Delegation = parts of behaviour is handed over
+				- flying behaviour delegated to FlyBehaviour
+				- FlyBehaviour is an interface that forces some method
+
+			- MallardDuck = subclassing abstract class Duck
+				- We use delegation and setFlyBehaviour,etc
+
+	151:	Adapter Design Pattern
+			- Client to loop through all objects and make them do something
+			- Used for recycler view
+			- Make classes compatible so that the client loop still works
+
+		Overview:
+			- MallardDuck implements INTERFACE Duck & overrides
+			- Adapter design pattern uses Ducks as the object type, so that many
+				other types of duck can be used for the same loop
+
+	156: 	RecyclerView
+			- Use .notifyDataSetChanged() to update the view
+
+			- Strategy Design Pattern
+				- Retrieving data by RecyclerView.Adapter
+				- Managing layout by LinearLayoutManager
+					- recyclerView is like MallardDuck and adapter/layoutManager is like FlyBehaviour
+
+			- Adapter Design Pattern				
+				- RecyclerView.Adapter<VH> is like Duck, but is an ABSTRACT class that forces the use of
+					- onCreateViewHolder
+						- Called on run-time each time data is added & returns an updated <VH>
+					- onBindViewHolder
+						- Get data & attach them to charaViewHolder accordingly
+					- getItemCount
+						- Simply return number of items to be seen
+					
+					- Generally, <VH> is usually defined as a static inner class
+						<VH> is an abstract class with no abstract methods
+
+	162:	Make RecyclerView items responds to clicks
+			- Option 2 is used in the code
+			- Option 1 is commented out
+
+	163:	itemTouchHelper
+			- Meant for swiping 
+
+	171: 	Relationship for all classes
