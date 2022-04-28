@@ -1,79 +1,32 @@
-1.1. Basic Java
-	Basic functions such as defining for-loops, methods, returns
+Slide:
 
-1.2. Java LinkedList
-	Static typing 
-	ArrayList vs LinkedList + their performances
+1 - 4:	Simple arrays & loops
 
-2.1. ObjectClass
-	Constructors and data fields
-	Instance vs static variables/methods
-	Private/default/public modifiers
-	Passing objects to methods
+5 - 7:	Static typing and primitive type
 
-3.1. Inheritance
-	Superclasses & subclasses (extends) + its advantages
-	super() on constructors
-	@override - Optional, for machine to check that it is correct only
-	java.lang.Object
-	Polymorphism + dynamic binding
-	Downcasting objects
-	instanceof
-	Protected modifier + table
+8 - 9:	ArrayList vs LinkedList & Iteration Types (slide 11)
 
-3.2. Abstract class and interface (part 1)
-	Abstract class + examples
+10, 12:	Generics & OOP
 
-4.1. Abstract class and interface (part 2)
-	Interfaces + examples
-	* ALL data fields in interfaces are public static final
-	* ALL methods are public abstract
-	Comparable Interface
-	Comparator Interface (additional alternative)
-	Abstract class vs Interface
+13 - 15:	Classes & Constructors
 
-4.2. Exception
-	Exception handling (try catch)
-	public static void class throw new Exception()
+16 - 17:	Primitive vs Object, Instance vs Static
 
-4.3. Recursion
-	Just recursion lol
+18 - 19: 	Private Field (Further covered in later parts)
 
-5.1. OO Design Pattern
-	Singleton DP + how to make + advantages
-	Observer DP + how to make + advantages
+20 - 24:	Inheritance
 
-5.2. VisitorDesignPattern
-	Visitor vs non-visitor
-	Visitor DP + how to make + advantages
+25 - 29:	Polymorphism & Dynamic Binding
 
-6.1. SAT
-	How to convert from BC to CNF
-	DPLL algorithm
-	(X + Y) == (-X -> Y) == (X -> -Y)
+30 - 32:	Protected & Visibility Modifiers
 
-7.1. Android Lesson - Java Revision
-	List .add()
-	Constructor
-	Polymorphism (Subtype)
-	Overloading methods (Adhoc polymorphism)
-	Page 38 for Polymorphism summary
-	Interfaces
-	Exception handling + try catch block
-	
-	
+33 - 37:	Abstract Classes & Interfaces
 
+38 - 42:	Comparable & Comparator
 
+43 - 48:	Exceptions
 
+49 - 58:	Singleton, Observer, Vistor Design Patterns
 
-
-
-
-
-
-
-
-
-
-
+59 - 60:	INF & DPLL	
 
